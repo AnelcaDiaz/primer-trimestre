@@ -1,0 +1,2 @@
+hola= "vaca"
+print(hola)
