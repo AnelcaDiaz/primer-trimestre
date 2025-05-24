@@ -10,7 +10,7 @@
 
 # print(len(tupla))
 
-# #Encuentra posición del numero 4 en la tupla
+#Encuentra posición del numero 4 en la tupla
 
 # print(tupla.index(4))
 
