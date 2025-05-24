@@ -125,39 +125,39 @@
 # tupl=tuple(lista)
 # print(tupl)
 
-print("Ejercicio 16")
+# print("Ejercicio 16")
 
-tup= ("hi", "world", "bye")
-lis=list(tup)
-print(lis)
-lis.append(24)
-print(lis)
+# tup= ("hi", "world", "bye")
+# lis=list(tup)
+# print(lis)
+# lis.append(24)
+# print(lis)
 
-print("Ejercicio 17")
+# print("Ejercicio 17")
 
-# lista=[2,4,5,6,7]
-# tuplays=tuple(lista)
-# extra=tuplays[2]
-# print(extra)
+# # lista=[2,4,5,6,7]
+# # tuplays=tuple(lista)
+# # extra=tuplays[2]
+# # print(extra)
 
-print("Ejercicio 18")
+# print("Ejercicio 18")
 
-# tupla=(1,2,3)
-# lista=list(tupla)
-# print(lista)
-# lista[1]=int(input("ingrese un numero"))
-# print(lista)
+# # tupla=(1,2,3)
+# # lista=list(tupla)
+# # print(lista)
+# # lista[1]=int(input("ingrese un numero"))
+# # print(lista)
 
-print("Ejercicio 19")
+# print("Ejercicio 19")
 
-# lista56=[1,2,3,4]
-# tuplas=tuple(lista56)
-# print(tuplas)
-# print(len(tuplas))
+# # lista56=[1,2,3,4]
+# # tuplas=tuple(lista56)
+# # print(tuplas)
+# # print(len(tuplas))
 
-print("Ejercicio 20")
+# print("Ejercicio 20")
 
-# tupla= (2,1,6,4,9)
+# # tupla= (2,1,6,4,9)
 # lista=list(tupla)
 # print(lista)
 
