@@ -2,7 +2,9 @@ print("CONDICIONALES")
 
 #CONTRALADORES DE FLUJO
 
-#Ejemplo utilizando la sentencia if 
+#Ejemplo utilizando 
+# la sentencia if: Se usa para indicar una condición
+
 # edad= int(input("Ingrese su edad" ))
 # if edad >=18:
 #     print("Es un adulto")         #Indentacion: son los espacios que se manejan de forma directa
@@ -34,7 +36,7 @@ print("CONDICIONALES")
 #     print("El numero es chico") #else nos permite finalizar la condicion
 
 
-# #Multiples if
+#Multiples if: se pueden usar mas de un if porque esta dentro del anterior 
 # x= 25
 # if x>10: 
 #     print("por encima de diez")
@@ -44,6 +46,7 @@ print("CONDICIONALES")
 #         print("pero no por encima de 20")
         
 #SENTENCIA ELIF: Se utiliza para la continuacion al if para encadenar mas comprobaciones
+
 # a= int(input("Ingrese un numero"))
 # b= int(input("ingrese un segundo numero"))
 # suma= a*b
@@ -75,7 +78,7 @@ elif 1965<= edad <=1979:
     print("usted es de generacion X")
     
 elif 2000>= edad>= 1980: 
-    print("usted es de la generacion y o milenials")
+    print("usted es de la generacion Y o milenials")
 
 elif 2001<= edad <=2010:
     print("Usted es de la generacion z o centenials")
