@@ -30,7 +30,7 @@
 
 # print("punto 3: Determina si un numero es par o impar")
 
-# num2= (float(input("Ingresa un numero : ")))
+# num2= float(input("Ingresa un numero : "))
 # if num2 %2==0:
 #     print("el numero es par ")
 # else:
@@ -107,32 +107,18 @@
 # print("EJERCICIOS CON LISTAS Y CON CONDICIONALES ")
 # print("Punto 11: crear listas y mostrar mayor que 10 o menor de 10")
 
-# lista = [5, 10, 5, 6, 15]
+# num = int(input("Ingrese un número : "))
+# nume = int(input("Ingrese un segundo número : "))
+# numer = int(input("Ingrese un tercer número : "))
+# numero = int(input("Ingrese un cuarto número : "))
+# num= int(input("Ingrese un quinto número : "))
+# nu= [num,nume,numer,numero,num]
+# print(nu)
 
-# if lista[0] > 10:
-#     print(f"El número {lista[0]} es mayor a 10")
-# elif lista[0] < 10:
-#     print(f"El número {lista[0]} es menor a 10")
-
-# if lista[1] > 10:
-#     print(f"El número {lista[1]} es mayor a 10")
-# elif lista[1] < 10:
-#     print(f"El número {lista[1]} es menor a 10")
-
-# if lista[2] > 10:
-#     print(f"El número {lista[2]} es mayor a 10")
-# elif lista[2] < 10:
-#     print(f"El número {lista[2]} es menor a 10")
-
-# if lista[3] > 10:
-#     print(f"El número {li#sta[3]} es mayor a 10")
-# elif lista[3] < 10:
-#     print(f"El número {lista[3]} es menor a 10")
-
-# if lista[4] > 10:
-#     print(f"El número {lista[4]} es mayor a 10")
-# elif lista[4] < 10:
-#     print(f"El número {lista[4]} es menor a 10")
+# if nu[2] > 10:
+#     print(f"El tercer número ingresado {nu[2]} es mayor a 10")
+# else:
+#     print(f"El tercer número ingresado {nu[2]} es menor o igual a 10")
 
 # print("Punto 12: Verifica si el número 7 está en la lista [3, 5, 7, 9]. Si está, muestra (Está en la lista), si no, muestra (No está en la lista), ")   
 
@@ -144,12 +130,7 @@
     
 # print("Punto 13: Suma los dos primeros elementos de la lista [4, 6, 2, 8]. Si la suma es mayor que 10, muestra “Suma alta”, de lo contrario, muestra “Suma baja”. ")
 
-# lista3=[4,6,2,8]
-# suma= lista3[0]+lista3[1]
-# if suma >10:
-#     print(f"la suma es alta ya que el resultado es {suma}")
-# else:
-#     print(f"la suma es baja ya que el resultado es {suma}")
+
 
 # print("Punto 14: Dada la lista Ana, Luis, Pedro, Marta, muestra el último nombre. Si ese nombre es “Marta”, muestra “Nombre correcto”, si no, “Nombre diferente”")
 
@@ -186,16 +167,16 @@
 
 # tupla2=(25,32,28)
 # if tupla2[1]>30:
-#     print("edad mayor a 30")
+#     print(f"su edad es {tupla2}y es mayor a 30")
 # else:
-#     print("edad menor o igual a 30")
+#     print(f" su edad es {tupla2} y es menor o igual a 30")
     
 # print("Punto 18:  Convierte la tupla (1, 2, 3) a lista, cambia el segundo valor a 10 solo si es igual a 2, luego vuelve a convertirla en tupla y muéstrala.")
 
 # tup=(1,2,3)
 # lista=list(tup)
 # if lista[1]==2:
-#     lista[1]==10
+#     lista[1]=10
 # tup=tuple(lista)
 # print(tup)
 
@@ -207,23 +188,23 @@
 #     print("coordenada alta") 
 # else:
 #    print("coordenada baja") 
-# print("Punto 18:  Compara si las tuplas (3, 4) y (3, 5) son iguales. Si lo son, muestra “Tuplas iguales”, si no, “Tuplas diferentes”. ") 
+# print("Punto 20:  Compara si las tuplas (3, 4) y (3, 5) son iguales. Si lo son, muestra “Tuplas iguales”, si no, “Tuplas diferentes”. ") 
 
 # tupla2=(3, 4) 
 # tupla3=(3, 5) 
 # if tupla2 == tupla3:
-#     print("las tuplas son iguales") 
+#     print("las tuplas {tupla2} y {tupla3} son iguales") 
 
 # else:
-#     print("las tuplas son diferentes ") 
+#     print("las tuplas {tupla2} y {tupla3} son diferentes ") 
 
 # print("Ejercicios con diccionarios (con condicionales)")
 
-# #print("Punto 21:  Crea un diccionario con "{nombre:Juan, edad: 17}." Si la edad es mayor o igual a 18, muestra “Adulto”, si no, muestra “Menor de edad”.")
+#print("Punto 21:  Crea un diccionario con "{nombre:Juan, edad: 17}." Si la edad es mayor o igual a 18, muestra “Adulto”, si no, muestra “Menor de edad”.")
 # dicci={"nombre" : "Juan", 
 # "edad":17}
 # if dicci["edad"]>=18:
-#     print(" adulto") 
+#     print(" usted es un adulto") 
 # else:
 #     print("usted es menor de edad") 
 
@@ -237,7 +218,7 @@
 
 #print("Punto 23: Crea un diccionario con {"nombre": "Carlos"}. Si la clave “ciudad” no existe, agrégala con el valor “Bogotá” y muestra el diccionario." )
 
-# Crear el diccionario inicial
+#Crear el diccionario inicial
 # dic3 = {"nombre": "Carlos"}
 
 # # Verificar si la clave "ciudad" no existe y agregarla
