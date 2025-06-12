@@ -107,18 +107,18 @@
 # print("EJERCICIOS CON LISTAS Y CON CONDICIONALES ")
 # print("Punto 11: crear listas y mostrar mayor que 10 o menor de 10")
 
-# num = int(input("Ingrese un número : "))
-# nume = int(input("Ingrese un segundo número : "))
-# numer = int(input("Ingrese un tercer número : "))
-# numero = int(input("Ingrese un cuarto número : "))
-# num= int(input("Ingrese un quinto número : "))
-# nu= [num,nume,numer,numero,num]
-# print(nu)
+num = int(input("Ingrese un número : "))
+nume = int(input("Ingrese un segundo número : "))
+numer = int(input("Ingrese un tercer número : "))
+numero = int(input("Ingrese un cuarto número : "))
+num= int(input("Ingrese un quinto número : "))
+nu=[num,nume,numer,numero,num]
+print(nu)
 
-# if nu[2] > 10:
-#     print(f"El tercer número ingresado {nu[2]} es mayor a 10")
-# else:
-#     print(f"El tercer número ingresado {nu[2]} es menor o igual a 10")
+if nu[2] > 10:
+    print(f"El tercer número ingresado {nu[2]} es mayor a 10")
+else:
+    print(f"El tercer número ingresado {nu[2]} es menor o igual a 10")
 
 # print("Punto 12: Verifica si el número 7 está en la lista [3, 5, 7, 9]. Si está, muestra (Está en la lista), si no, muestra (No está en la lista), ")   
 
@@ -130,8 +130,14 @@
     
 # print("Punto 13: Suma los dos primeros elementos de la lista [4, 6, 2, 8]. Si la suma es mayor que 10, muestra “Suma alta”, de lo contrario, muestra “Suma baja”. ")
 
+# Lista3=[4,6,2,8]
+# suma=Lista3[0]+Lista3[1]
 
+# if suma>10:
+#     print(f"la suma es alta ya que el resultado es {suma}")
 
+# else:
+#     print(f"la suma es baja ya que el resultado es {suma}")
 # print("Punto 14: Dada la lista Ana, Luis, Pedro, Marta, muestra el último nombre. Si ese nombre es “Marta”, muestra “Nombre correcto”, si no, “Nombre diferente”")
 
 # lista4=["Ana","Luis","Pedro", "Marta"]
