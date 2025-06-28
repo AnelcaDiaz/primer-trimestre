@@ -1,14 +1,14 @@
 print("EJERCICIOS CON WHILE, CONDICIONALES Y ESTRUCTURAS")
 
-print("1: Suma hasta cero")
+# total = 0
+# while True:
+#     numero = int(input("Ingrese un numero a sumar (0 para cerrar el programa): "))
+#     if numero == 0:
+#         break
+#     total += numero
+#     print(f"Su total es {total}")
+# print("Programa finalizado")
 
-# total=0
-# nume=int(input("Ingrese un numero: "))
-# while nume !=0:
-#     total+=nume
-#     nume3=int(input("Ingrese un segundo número: "))
-#     print(f"programa finalizado"{total})
-    
 print("2: CONTRASEÑA SECRETA")
 
 # clave=input("Escribe la contraseña: ")
@@ -60,7 +60,7 @@ print("5:promedio de calificaciones")
 # else:
 #     print("La nota es invalida")
     
-print("6:Tabla de multiplicar interactiva")
+# print("6:Tabla de multiplicar interactiva")
 
 # contar ="si"
 # while contar.lower() =="si":
@@ -75,8 +75,8 @@ print("6:Tabla de multiplicar interactiva")
 #     contar=input("\deseas ver otra tabla de multiplicar (si/no): ")
 
 print("\n 7: Adivina el número")
-
-# secret=48
+#El programa tiene un número secreto (ej. 17). El usuario tiene que adivinarlo. Con cada intento, el programa dice si es mayor o menor.
+# secret=7
 # again=0
 # print("¡Hola! He escogido un número del 1-60, ¿Crees ser capaz de adivinar cuál es?")
 # nume=int(input("Ingresa un número del 1-60: "))
@@ -92,24 +92,24 @@ print("\n 7: Adivina el número")
 # print("\n8:Tupla de frutas")
 
 # n=0
-# lista=["pera","mango","kiwi","papaya"]
-# print("¡Bienvenido!")
-# print("He creado una lista con frutas ¿Podrás adivinar alguna de las frutas que escogí?")
-# n= input("Ingresa la fruta que crees que está en mi lista: ")
-# while n.lower() not in lista:
+# tup=("pera","mango","kiwi","papaya")
+# print("¡Welcome!")
+# print("He creado una tupla con frutas ¿Podrás adivinar alguna de las frutas que escogí?")
+# n= input("Ingresa la fruta que crees que está en mi tupla: ")
+# while n.lower() not in tupla:
 #     n+=1
-#     print(f"{n} no está en mi lista, ¡intentemos de nuevo!")
-#     n= input("Ingresa la fruta que crees que está en mi lista: ")
-# print(f"¡Perfecto, lograste adivinarlo! Las frutas que hay en mi lista son: {lista}")
+#     print(f"{n} no está en mi tupla, ¡intentemos de nuevo!")
+#     n= input("Ingresa la fruta que crees que está en mi tupla: ")
+# print(f"¡Perfecto, lograste adivinarlo! Las frutas que hay en mi tupla son: {tup}")
 
 # print("\n9:Diccionario de traduccion")
 
 # trans={
-#     "hola":"hello",
-#     "adios":"goodbye",
-#     "por favor":"please",
-#     "gracias":"thank you",
-#     "humilde":"humble"
+#     "bienvenido":"welcome",
+#     "ir":"go",
+#     "comprar":"bought",
+#     "herida":"pain",
+#     "pobre":"poor"
 # }
 # print("Bienvenido al traductor español-ingles")
 # own=input("Ingrese la palabra en español que desea traducir: ").lower()
@@ -192,6 +192,7 @@ print("/n 11. Registro de edades")
 # print(f"Acontinuancion registro",people)
 
 print("12. Buscar en lista")
+#Crea una lista de 5 colores. Usa un bucle while para que el usuario escriba colores hasta encontrar uno que esté en la lista.
 # Lista de 5 colores predefinidos
 # colors=["amarillo","azul","rosado","negro","verde"]
 
@@ -215,8 +216,49 @@ print("13. Potencias de un número")
 #     exp+=1  #Aumentamos el exponente en 1 en cada ciclo
 
 print("14. Lista de cuadrados")
+#Pide 5 números con while y guarda en una lista sus cuadrados. Al final, muestra la lista. 
+# n = []
+# contar = 0
 
-numeros=[]
-while:
-    n=float(input("¡Welcome!Ingrese un numero: "))
-    pro=n*2
+# # Mientras el contador sea menor a 5 se le sumará +1 en la siguente vuelta
+# while contar < 5:
+#     nu2 = int(input("Ingresa un número: "))
+#     la = nu2 ** 2
+#     n.append(la) # Agrego el número ingresado a listas 
+
+#     print(f"El cuadrado de {nu2} es {n}")
+#     la += 1 # Procede con el siguiente número
+
+# # Cuando sale del bucle 
+# print(f"\nLista de cuadrados ingresados: {n}")
+# print("Finaliza el programa")
+
+# print("15: Diccionario de estudiantes")
+#Crea un programa que te deje registrar estudiantes con su nota final (nombre y nota). Usa un diccionario. El usuario debe poder agregar varios hasta que escriba "fin".
+
+# estu= {}
+
+# while True:
+#     name = input("Ingresa el nombre del estudiante: ").upper()
+
+#     # Si el usuario escribe fin en el nombre, finaliza el programa
+#     if name == "fin":
+#         print("Programa finalizado")
+#         break
+
+#     book = float(input("Ingresa su nota final: "))
+
+#     # Guarda el nombre y la nota del estudiante en el diccionario inicial
+#     estu[name] = book
+
+#     # Pregunta al usuario si desea continuar 
+#     again = input("¿Desea ingresar otro estudiante? (si/no): ").upper()
+
+#     if again == "si":
+#         print("Puedes continuar")
+#     else:
+#         print("El programa se ha detenido")
+#         break
+
+# print(f"la lista completa de estudiantes ingresados es: {estu}")
+# print("Finalización del programa")
